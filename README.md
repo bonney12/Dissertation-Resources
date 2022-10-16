@@ -6,6 +6,11 @@
 
 This repository contains a range of data that can be used in combination with the Corpus of Spontaneous Japanese (CSJ) and the Corpus of Workplace Conversation (CWPC) provided by the National Institute for Japanese Language and Linguistics (NINJAL) to obtain the same dataset and outputs as presented within my dissertation.
 
+The R Scripts folder contains the code used to generate the two models (CSJ Model.R, CWPC Model.R), as well as scripts that were used to evaluate whether a random-effect or fixed-effect model should be used (CSJ Model Comparison.R, CWPC Model Comparison.R).
+
+The PHP Scripts folder contains the code used to re-structure and re-level the information from the CWPC/CSJ datasets in order to be used in the model. This is to encourage reproducibility, as these scripts could be run on new extracted datasets from these corpora and would result in the same structure as I used.
+
+The questions used in the experiment, as well as the responses received, are all stored within the file 'Question List and Results.xlsx'.
 ---
 
 ## Accessing the datasets

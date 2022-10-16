@@ -1,1 +1,0 @@
-UPDATE `CWPC Reformatted` SET `IsIgnored` = TRUE WHERE `InterlocutorID` IS NULL;
